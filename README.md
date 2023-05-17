@@ -1,1 +1,9 @@
-<h3 align="center"> <a href="https://caodoc.github.io"> caodoc.github.io </a> </h3>
+<h2 align="center"> <strong> Only Ducca - Ducca's Personal Website </strong> <h2>
+
+<img src="./assets/review.png">
+
+<h3>
+    <p> Visit the website <a href="https://caodoc.github.io"> here</a>. </p>
+    <p> About the website <a href="https://caodoc.github.io/about"> here</a>. </p>
+    <p> My blog <a href="https://caodoc.github.io/blog"> here</a>. </p>
+</h3>
