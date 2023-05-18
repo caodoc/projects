@@ -1,6 +1,6 @@
 <h2 align="center"> <strong> Only Ducca - Ducca's Personal Website </strong> <h2>
 
-<img src="./assets/review.png">
+<img src="https://raw.githubusercontent.com/caodoc/caodoc.github.io/main/assets/review.png">
 
 <h3>
     <p> Visit the website <a href="https://caodoc.github.io"> here</a>. </p>
