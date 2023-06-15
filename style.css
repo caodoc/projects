@@ -1,18 +1,14 @@
-* 
+*
 {
 	box-sizing: border-box;
 }
 
-body 
+body
 {
-	margin: 0;
+	margin: 0 0;
+	top: 0;
 	overflow: auto;
-    background-color: #000000;
-	background: url(https://raw.githubusercontent.com/caodoc/caodoc.github.io/main/assets/background.jpg);
-	background-position: center center;
-	background-attachment: fixed; 
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-color: #404258;
 	font-family: "JetBrains Mono", monospace;
 }
 
@@ -25,150 +21,9 @@ a
 #container
 {
 	position: relative;
-	margin: auto auto;
-	width: 750px;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	color: #ffffff;
-	/*-webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;*/
-}
-
-#header
-{
-	position: relative;
-	height: 32px;
-	padding-left: 10px;
-	display: flex;
-	align-items: center;
-	gap: 50px;
-	background: linear-gradient(45deg, #2484d3, #d63ccc);
-	border-radius: 15px 15px 15px 15px;
-	font-size: 16px;
-}
-
-#content
-{
-	position: relative;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 16px;
-	padding-bottom: 24px;
-	background: linear-gradient(45deg, #2484d3, #d63ccc);
-	border-radius: 15px 15px 15px 15px;
-}
-
-#footer
-{
-	position: relative;
-	bottom: -25px;
-	font-size: 6px;
-}
-
-.name
-{
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.contact
-{
-	width: 48px;
-	height: 48px;
-	transition: transform 0.3s;
-}
-
-.contact:hover
-{
-	transform: scale(1.05);
-}
-
-.link
-{
-	font-weight: bold;
-	color: #1619c0;
-}
-
-#loading 
-{
-	position: fixed;
-	display: flex;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	width: 100%;
-	height: 100%;
-	justify-content: center;
-	align-items: center;
-}
-
-#loader 
-{
-	width: 48px;
-	height: 48px;
-	display: inline-block;
-	position: relative;
-}
-
-#loader::after, 
-#loader::before 
-{
-	content: '';
-	width: 48px;
-	height: 48px;
-	border: 2px solid #ffffff;
-	position: absolute;
-	left: 0;
-	top: 0;
-	box-sizing: border-box;
-	animation: rotation 2s ease-in-out infinite;
-}
-
-#loader::after 
-{
-	border-color: #FF3D00;
-	animation-delay: 1s;
-}
-  
-@keyframes rotation 
-{
-	0% 
-	{
-	  transform: rotate(0deg);
-	}
-	100% 
-	{
-	  transform: rotate(360deg);
-	}
-}
-
-@media screen and (max-width: 1200px)
-{
-	#container
-	{
-		width: 100%;
-		padding-top: 25px;
-		padding-bottom: 25px;
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-
-	#header
-	{
-		gap: 20px;
-	}
-
-	#footer
-	{
-		font-size: 10px;
-	}
-
-	.name
-	{
-		font-size: 18px;
-	}
+	top: 32px;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 32px;
+	color: #DDE6ED;
 }
