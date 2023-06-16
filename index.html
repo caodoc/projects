@@ -12,15 +12,47 @@
         <title> Ducca </title>
 
         <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/caodoc/caodoc.github.io/main/assets/web_logo.png" width="64px" height="64px"/>
-		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" media="(min-width: 650px)" type="text/css" href="./medium.css">
+        <link rel="stylesheet" media="(max-width: 650px)" type="text/css" href="./small.css"> 
         <link rel="preconnect" href="https://fonts.bunny.net"/>
         <link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700|jetbrains-mono:300,400,500,600,700" rel="stylesheet"/>
     </head>
 
     <body>
-        <div id="container" align="center">
-            <p> What you are looking for is not here anymore. </p>
-            <p> Click <a href="https://caodoc.github.io"> here</a> to go to main page. </p>
+        <div id="container">
+            <p id="header"> About </p>
+
+            <div id="holder">
+                <div class="box">
+                    <img class="preview" src="./assets/CIANS.png">
+                    <div class="content">
+                        <p class="name"> CIANS </p> 
+                        <div class="line">  </div>
+                        <p> Stands for C++ In A Nutshell, a place to keep my code of solved problems on Codeforces, LeetCode, VNOJ. </p>
+                        <a href="https://github.com/caodoc/CIANS"><img class="icon" src="./assets/icon.png"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class="preview" src="./assets/PIANS.png">
+                    <div class="content">
+                        <p class="name"> PIANS </p>
+                        <div class="line">  </div>
+                        <p> Stands for Python In A Nutshell, where i keep Python school homework. </p>
+                        <a href="https://github.com/caodoc/PIANS"><img class="icon" src="./assets/icon.png"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class="preview" src="./assets/Documents.png">
+                    <div class="content">
+                        <p class="name"> Documents </p> 
+                        <div class="line">  </div>
+                        <p> My collection of homework, althogrims. </p>
+                        <a href="https://github.com/caodoc/Documents"><img class="icon" src="./assets/icon.png"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
