@@ -71,15 +71,6 @@ a
 	border-radius: 10px 10px 10px 10px;
 }
 
-.icon
-{
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-	width: 16px;
-	height: 16px;
-}
-
 .content
 {
 	position: relative;
@@ -96,4 +87,19 @@ a
 {
 	height: 2px;
 	background-color: #c4c4c4;
+}
+
+.footer
+{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	gap: 12px;
+}
+
+.icon
+{
+	width: 16px;
+	height: 16px;
 }
