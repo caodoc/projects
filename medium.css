@@ -11,12 +11,6 @@ body
 	font-family: "JetBrains Mono", monospace;
 }
 
-a
-{
-	text-decoration: none;
-	color: #ffffff;
-}
-
 #container
 {
 	position: relative;
