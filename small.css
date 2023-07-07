@@ -69,12 +69,6 @@ a
 	border-radius: 5px 5px 5px 5px;
 	color: #ffffff;
 	cursor: pointer;
-	transition: transform 0.5s;
-}
-
-.btn:hover
-{
-	transform: scale(1.05);
 }
 
 .web
