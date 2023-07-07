@@ -80,20 +80,3 @@ a
 {
 	width: 75px;
 }
-
-#back
-{
-	position: relative;
-	top: 25px;
-	width: 75px;
-	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #576CBC;
-	border-radius: 5px 5px 5px 5px;
-	color: #ffffff;
-	font-size: 20px;
-	cursor: pointer;
-	transition: transform 0.5s;
-}
