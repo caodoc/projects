@@ -6,6 +6,6 @@ var counting = setInterval(function()
     if (timer <= 0)
     {
         clearInterval(timer);
-        window.location.href = "https://caodoc.github.io";
+        window.location.href = "https://caodoc.is-a.dev";
     }
 }, 1000);
