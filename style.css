@@ -8,12 +8,6 @@
 	--scroll-bar: #585b70;
 }
 
-@font-face
-{
-	font-family: "Montserrat";
-	src: url(./Montserrat-Medium.ttf);
-}
-
 *
 {
 	box-sizing: border-box;
@@ -44,7 +38,7 @@ body
 	top: 0;
 	overflow-x: hidden;
 	background-color: var(--body);
-	font-family: "Montserrat";
+	font-family: "Fira Mono", monospace;
 }
 
 #container
